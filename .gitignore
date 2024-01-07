@@ -7,3 +7,8 @@
 # Ignore all vendor files included by composer and the lock file
 /vendor
 composer.lock
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
